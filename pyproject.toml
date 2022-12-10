@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdf-clr-dpi-converter"
+version = "0.1.0"
+description = ""
+authors = ["Yagishita Akihiro"]
+readme = "README.md"
+packages = [{include = "pdf_clr_dpi_converter"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pymupdf = "^1.21.0"
+pillow = "^9.3.0"
+fitz = "^0.0.1.dev2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
